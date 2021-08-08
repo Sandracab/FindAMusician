@@ -1,24 +1,19 @@
-# findamusician-vue
+# FindAMusician
 
-## Project setup
-```
-npm install
-```
+This is a webpage for a fictional company where you can place a request for a musician  to an event.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Development
+This project is made with ASP.NEt Web API, Vue and Bootstrap
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Run project
+In order to run this project you need node.js and npm installed.
+You also need the Vue cli.
+*npm install -g @vue/cli*
 
-### Lints and fixes files
-```
-npm run lint
-```
+1. Open the *findamusician-vue* file in code editor
+2. Add folder to workspace - *FindAMusicianAPI*
+3. In terminal, go to *FindAMusicianAPI* folder and type command: *dotnet run*
+4. In terminal, go to *findamusician-vue* folder and type command: *npm run serve*
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The project will then open on localhost on predefined browser.
+
